@@ -204,7 +204,7 @@ body{
   max-width:1600px;
   width:100%;
   margin-inline:auto;
-  padding:16px
+  padding:16px; 
 }
 
 .icon-btn{
@@ -222,7 +222,7 @@ body{
 
 .has-state:is(:focus, :focus-visible){box-shadow:none;}
 
-has-state:before{
+.has-state::before{
   content: "";
   position: absolute;
   inset:0;
@@ -231,10 +231,53 @@ has-state:before{
   transition:var(--transition-short);
 }
 
+.has-state:hover::before{ background-color: var(--white-alpha-4);}
+
+/* .has-state:hover::after{ background-color: var(--white-alpha-4);}  */
+
+.has-state:is(:focus, :focus-visible)::before {
+  background-color: var(--white-alpha-8);
+  animation: ripple 250ms ease forwards;
+}
+
+@keyframes ripple {
+  0% {clip-path: cicle(0% at 50% 50%);}
+  100% {clip-path: cicle(100% at 50% 50%);}
+}
+
+.btn-primary {
+  background-color: var(--primary);
+  color: var(--on-primary);
+  height:48px;
+  line-height:48px;
+  /* width: 48px; */
+  max-width: max-content;
+  display:flex; 
+  align-self: center;
+  gap:16px;
+  border-radius: var(--radius-pill);
+
+}
+
+.btn-primary .span {
+  font-weight: var(--weight-semiBold);
+}
+
+.btn-primary[disabled] { 
+  background-color: var(--outline);
+  color: var(--on-surface-variant);
+  cursor:not-allowed;
+}
+
+.btn-primary[disabled]::before { display: none;}
+
+
 
 /*-----------------------------------*\
   #HEADER
 \*-----------------------------------*/
+.search-view, 
+.header .btn-primary .span {display: none;}
 
 
 
