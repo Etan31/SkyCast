@@ -301,6 +301,20 @@ body{
   font-size: var(--heading);
   line-height: 1.1;
  }
+ 
+.title-1 { font-size: var(--title-2); }
+
+.title-2 { 
+  font-size: var(--title-2);
+  margin-block-end: 12px;
+}
+
+.title-3 {
+  font-size: var(--title-3);
+  font-weight: var(--weight-semiBold);
+}
+
+
 
 /*-----------------------------------*\
   #HEADER
