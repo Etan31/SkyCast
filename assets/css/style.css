@@ -281,8 +281,15 @@ body{
 
 
 
+.card {
+  background-color: var(--surface);
+  color: var(--on-surface);
+}
 
-
+.card-lg {
+  border-radius: var(--radius-28);
+  padding: 20px;
+}
 
 
 /*-----------------------------------*\
@@ -367,7 +374,7 @@ body{
 
 .search-wrapper .leading-icon {
   position:absolute;
-  top:-10%;
+  top:-10%;  
   left:28px;
   transform: translate(-50%, 50%);
 }
@@ -400,6 +407,15 @@ body{
   inset: 0;
   box-shadow: none;
 }
+
+
+
+
+
+
+
+
+
 
 /*-----------------------------------*\
   #CURRENT WEATHER
