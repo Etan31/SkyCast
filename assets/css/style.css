@@ -314,6 +314,19 @@ body{
   font-weight: var(--weight-semiBold);
 }
 
+.body-1 { font-size: var(--body-1); }
+
+.body-2 {
+  font-size: var(--body-2);
+  font-weight: var(--weight-semiBold);
+}
+
+.body-3 { font-size: var(--body-3); }
+
+.label-1{font-size: var(--label-1); }
+
+.label-2{font-size: var(--label-2); }
+
 
 
 /*-----------------------------------*\
