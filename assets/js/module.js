@@ -57,3 +57,8 @@ export const getHours = function(timeUnix, timezone) {
    
    return `${hours % 12 || 12} ${period}`
 }
+
+export const mps_to_kmh = mps =>{
+   const mph = mps * 3600;
+   return mph / 1000;
+}
