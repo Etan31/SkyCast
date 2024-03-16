@@ -6,8 +6,9 @@
  */
 
 'use strict';
+const config = require('./config');
 
-const api_key = "b8a84b455015781db98c293e744cbaf3";
+const api_key = config.apiKey;
 
 /**
  * Fetch data from server
