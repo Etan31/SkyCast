@@ -29,7 +29,7 @@ A weather web application that display today's hourly weather, 5-day forecast, a
 Clone the project
 
 ```bash
-  git clone https://link-to-project
+  git clone https://github.com/Etan31/skycast.git
 ```
 
 Go to the project directory
