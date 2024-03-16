@@ -1,8 +1,8 @@
 /**
  * @license MIT
  * @fileoverview All module functions
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright  Copyright (c) 2024 Tristan Ehron Tumbaga
+ * @author Etan31 <tumbagatristanehron31@gmail.com>
  */
 
 'use strict';

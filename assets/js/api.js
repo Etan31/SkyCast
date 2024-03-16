@@ -1,14 +1,14 @@
 /**
  * @license MIT
  * @fileoverview All api related stuff like api_key, api request etc.
- * @copyright codewithsadee 2023 All rights reserved
- * @author codewithsadee <mohammadsadee24@gmail.com>
+ * @copyright  Copyright (c) 2024 Tristan Ehron Tumbaga
+ * @author Etan31 <tumbagatristanehron31@gmail.com>
  */
 
 'use strict';
-// const config = require('./config');
 
-const api_key = process.env.API_KEY;
+var api_key = config.apiKey;
+
 
 /**
  * Fetch data from server
