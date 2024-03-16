@@ -53,7 +53,7 @@ Open with live server
 
 ## Authors
 
-- [@codewithsadee](https://www.github.com/Etan31)
+- [@Etan31](https://github.com/Etan31)
 
 ## License
 
