@@ -3,27 +3,25 @@ Read.me
 
 
 
-# Project Title
+# Skycast
 
-A brief description of what this project does and who it's for
+A weather web application that display today's hourly weather, 5-day forecast, and other weather details.
 
 ## Tech Stack
 
 **Client:** HTML, CSS, JavaScript, API
 
-## Demo
-
-Insert gif or link to demo
 
 ## Features
 
-- Feature 1
-- Feature 2
-- Feature 3
+- today's hourly weather
+-  5-day forecast
+- Other weather details like Air Quality Index, humidity, time of Sunrise & Sunset, Pressure, Visibility, and Temperature.
 
 ## Screenshots
 
-![Uploading image.png…]()
+![image](https://github.com/Etan31/skycast/assets/98531015/a393d893-6e3e-4030-899c-0503817a7f8a)
+
 
 
 ## Run Locally
@@ -55,12 +53,8 @@ Open with live server
 
 ## Authors
 
-- [@codewithsadee](https://www.github.com/codewithsadee)
+- [@codewithsadee](https://www.github.com/Etan31)
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-## Support
-
-For support, Join my [Patreon Comunity](https://www.patreon.com/codewithsadee/membership) or Subscribe My [YouTube Channel](https://youtube.com/@codewithsadee).
