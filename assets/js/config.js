@@ -1,7 +1,7 @@
-require('dotenv').config();
+// require('dotenv').config();
 
-const config = {
-    apiKey: process.env.API_KEY
-};
+// const config = {
+//     apiKey: process.env.API_KEY
+// };
 
-module.exports = config;
+// module.exports = config;

@@ -6,9 +6,9 @@
  */
 
 'use strict';
-const config = require('./config');
+// const config = require('./config');
 
-const api_key = config.apiKey;
+const api_key = process.env.API_KEY;
 
 /**
  * Fetch data from server
