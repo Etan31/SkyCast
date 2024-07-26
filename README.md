@@ -9,7 +9,7 @@ A weather web application that display today's hourly weather, 5-day forecast, a
 
 ## Tech Stack
 
-**Client:** HTML, CSS, JavaScript, API
+**Client:** HTML, CSS, Vanilla Javascript, API
 
 
 ## Features
