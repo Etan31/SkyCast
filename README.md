@@ -29,6 +29,10 @@ A weather web application that display today's hourly weather, 5-day forecast, a
 
 ## Run Locally
 
+### Note:
+
+- change api key in your configuration.js
+
 Clone the project
 
 ```bash
