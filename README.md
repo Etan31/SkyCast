@@ -18,6 +18,7 @@ A weather web application that display today's hourly weather, 5-day forecast, a
 -  5-day forecast
 - Other weather details like Air Quality Index, humidity, time of Sunrise & Sunset, Pressure, Visibility, and Temperature.
 - Search location
+- Weather API - https://openweathermap.org/api
 
 ## Screenshots
 
