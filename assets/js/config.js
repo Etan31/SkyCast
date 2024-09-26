@@ -1,6 +1,6 @@
 
 var config = {
-    apiKey: "b8a84b455015781db98c293e744cbaf3" 
+    apiKey: process.env.WEATHER_API_KEY 
 };
 
 module.exports = config;

@@ -1,8 +1,3 @@
-Read.me
-
-
-
-
 # Skycast
 
 A weather web application that display today's hourly weather, 5-day forecast, and other weather details.
@@ -25,6 +20,8 @@ A weather web application that display today's hourly weather, 5-day forecast, a
 
 
 ## Run Locally
+
+Rename env.txt and add your API key from ([openweathermap.org](https://openweathermap.org/api))
 
 Clone the project
 
