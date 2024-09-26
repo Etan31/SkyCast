@@ -1,14 +1,14 @@
 /**
  * @license MIT
- * @fileoverview All api related stuff like api_key, api request etc.
+ * @fileoverview All api related stuff like configuration_code, api request etc.
  * @copyright  Copyright (c) 2024 Tristan Ehron Tumbaga
  * @author Etan31 <tumbagatristanehron31@gmail.com>
  */
 
 'use strict';
 
-var api_key = config.apiKey;
-
+import { config } from './config.js';
+var configuration_code = config.secret;
 
 /**
  * Fetch data from server
@@ -16,7 +16,7 @@ var api_key = config.apiKey;
  * @param {Function} callback callback
  */
 export const fetchData = function (URL, callback) {
-  fetch(`${URL}&appid=${api_key}`)
+  fetch(`${URL}&appid=${configuration_code}`)
     .then(res => res.json())
     .then(data => callback(data));
 }
